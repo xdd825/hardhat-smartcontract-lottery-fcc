@@ -43,6 +43,11 @@ module.exports = {
             default: 1,
         },
     },
+    etherscan: {
+        apiKey: {
+            rinkeby: ETHERSCAN_API_KEY,
+        },
+    },
     mocha: {
         timeout: 200000,
     },
